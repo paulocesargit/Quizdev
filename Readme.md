@@ -1,6 +1,6 @@
 <h1 align="center"> Quiz Dev </h1>
 
-# Sobre o gerador
+# Sobre o Quiz
 
 Esse projeto foi feito para aperfeiçoar minhas habilidades com React</br>
 
