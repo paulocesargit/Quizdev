@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif; /* Alterado para Montserrat */
+  color: #fff;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1c1c1c; /* Mantido conforme enviado */
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  background: linear-gradient(
+    90deg,
+    #007bff 0%,
+    /* Azul primário */ #66b2ff 100% /* Azul claro */
+  ); /* Gradiente ajustado */
+  border-radius: 3rem;
+  border: none;
+  transition: background 0.3s ease-in-out; /* Suavização do hover */
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    #66b2ff 0%,
+    /* Azul claro no início */ #007bff 100% /* Azul primário no fim */
+  ); /* Gradiente invertido para hover */
+}
